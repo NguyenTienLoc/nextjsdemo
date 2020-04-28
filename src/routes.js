@@ -20,7 +20,7 @@ const opts = {
 };
 module.exports = routes(opts)
   .add('index', '/', 'index')
-  .add('profile', '/profile')
-  .add('test', '/', 'test')
-  .add('result','/place/:name/:id','result')
-  .add('plan','/plan/:name/:id','plan')
+  // .add('profile', '/profile')
+  // .add('test', '/', 'test')
+  // .add('result','/place/:name/:id','result')
+  // .add('plan','/plan/:name/:id','plan')
